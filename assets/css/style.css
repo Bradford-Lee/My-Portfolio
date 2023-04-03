@@ -1,0 +1,135 @@
+html, body{
+    background-color: honeydew;
+    max-width: 1600px;
+    font-family: "Lucida Handwriting", Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: darkolivegreen;
+    font-size: 20px;
+}
+h1 {
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    padding: 14px 20px;
+}
+
+/* NavBar */
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+nav a {
+    padding: 14px 20px;
+    color: white;
+}
+
+/* Photo */
+.image-container {
+    display: flex;
+    flex-shrink: 2;
+    width: 50%;
+    height: 50%;
+    padding-top: 1%;
+    margin: auto;
+}
+.image-me {
+    width: 100%;
+}
+
+/* SideBar */
+h2 {
+    font-size: 30px;
+}
+.about-section, .project-section, .contact-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+aside {
+    flex: 1;
+    padding: 80px;
+    text-align: center;
+    border-right: groove;
+    margin-bottom: 10px;
+}
+
+/* Main Content */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 5 5 0%;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+/* Projects */
+.projects {
+    flex: 1 0 0;
+    text-align: center;
+    border: 5px solid #639c6d;
+    margin: 6px;
+    width: 48%;
+}
+/* First application image is larger in size than the others */
+#project-1 {
+    width: 100%;
+}
+
+/* Styles the captions */
+.all-projects {
+    position: relative;
+}
+.Aloha, .Turtles , .Seal , .Peacock , .Chicken{
+    text-align:center;
+    background-color:#639c6d;
+    width: 119px;
+    color:white;
+    position: absolute;
+    overflow-wrap: break-word;
+}
+.Aloha {
+    left: 26px;
+    top: 750px;
+}
+.Turtles {
+    left: 16px;
+    top: 1200px;
+}
+.Seal {
+    left: 593px;
+    top: 1200px;
+}
+.Peacock {
+    left: 16px;
+    top: 1650px;
+}
+.Chicken {
+    left: 593px;
+    top: 1650px;
+}
+
+/* Contact Me Section */
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: auto;
+    align-content: center;
+}
+.info a , .info p {
+    color: blue;
+    text-decoration: solid underline 2px; 
+    padding: 70px;
+    display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  main, nav, .about-section, .project-section, .contact-section, .all-projects, .container {
+    flex-direction: column;
+  }
+}
