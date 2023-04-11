@@ -1,4 +1,4 @@
-# homework-02
+# My Portfolio
 
 ## Description
 
@@ -10,7 +10,7 @@ Download the homework-02-challenge folder which contains the html, css, and imag
 
 ## Usage 
 
-Someone may use this website https://bradford-lee.github.io/homework-02/ to find more information about my projects. You may click on the text in the header to navigate to the respective sections on the page. See below screenshot example for reference. You may click on the images to open a new tab to the deployeed application. You may click on the links at the contact me section to open a new tab to the deployed application.
+Someone may use this website https://bradford-lee.github.io/My-Portfolio/ to find more information about my projects. You may click on the text in the header to navigate to the respective sections on the page. See below screenshot example for reference. You may click on the images to open a new tab to the deployeed application. You may click on the links at the contact me section to open a new tab to the deployed application.
 
 ![screenshot](https://user-images.githubusercontent.com/127280322/229426229-cead3f9a-8883-4a74-bd69-6a80824de545.PNG)
 
